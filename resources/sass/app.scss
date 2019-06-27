@@ -1,8 +1,145 @@
+
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import 'node_modules/themify-icons/themify-icons';
+
+@font-face {
+    font-family: Trajan;
+    src: url('/fonts/vendor/trajan-pro/Trajan.ttf');
+}
+
+@font-face {
+    font-family: Bjorn Regular;
+    src: url('/fonts/vendor/bjorn/Bjorn-Regular.otf');
+}
+
+
+@font-face {
+    font-family: Blanka;
+    src: url('/fonts/vendor/blanka-font/Blanka-Regular.otf');
+}
+
+@font-face {
+    font-family: Metropolis Bold;
+    src: url('/fonts/vendor/typeface-metropolis/Metropolis-Bold.otf');
+}
+@font-face {
+    font-family: Metropolis Medium;
+    src: url('/fonts/vendor/typeface-metropolis/Metropolis-Medium.otf');
+}
+@font-face {
+    font-family: Metropolis Light;
+    src: url('/fonts/vendor/typeface-metropolis/Metropolis-Light.otf');
+}
+
+@font-face {
+    font-family: Metropolis ExtraLight;
+    src: url('/fonts/vendor/typeface-metropolis/Metropolis-ExtraLight.otf');
+}
+
+
+@font-face {
+    font-family: Lato Regular;
+    src: url('/fonts/vendor/lato/LatoLatin-Regular.ttf');
+}
+
+
+
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.bg_menu {
+	background: #fff;
+}
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-nav {
+	padding-left: 19px;
+}
+
+
+.navbar-brand {
+	font-family: 'Metropolis Medium';
+	font-weight: bolder;
+	font-size: 18pt;	
+}
+
+.nav-link {
+	font-family: 'Metropolis ExtraLight';
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.dropdown-item {
+	font-family: 'Metropolis ExtraLight';
+	font-size: 8pt;
+	font-size: 8pt;
+}
+
+.bg_menu {
+	background: #fff;
+}
+
+.bg_submenu {
+	background: #e7e7e7;
+	color: #999999;
+	font-family: 'Metropolis ExtraLight';
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+
+.bottom1 {
+	color: $bottom1_text_color;
+	font-size:12px;
+	background-color: $bottom1_bg_color;
+}
+
+.bottom1 h4, .bottom1 h6 {
+	color: #333;
+}
+
+.bottom2 {
+	color: $bottom2_text_color1;
+	background-color: $bottom2_bg_color;	
+	font-size: 7pt;
+}
+
+.copyright {
+	color: $bottom2_text_color2;
+}
+
+
+.fullscreen {
+	min-height: 100vh;
+}
+
+.social_media a:link {
+      color: #808080 !important;
+}
+
+.social_media a:visited {
+      color: #808080 !important;
+}
+
+body {
+	background-color: #fff;	
+}
+
+
